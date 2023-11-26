@@ -1,0 +1,16 @@
+CRITICAL - 2023-11-26 08:31:17 --> Undefined variable $profile_image
+in APPPATH\Views\layout\profile_saldo.php on line 11.
+ 1 APPPATH\Views\layout\profile_saldo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile_image', 'E:\\Project\\a\\sims-ppob\\app\\Views\\layout\\profile_saldo.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\Project\\a\\sims-ppob\\app\\Views\\layout\\profile_saldo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('layout/profile_saldo', null, true)
+ 5 APPPATH\Views\homepage\index.php(5): CodeIgniter\View\View->include('layout/profile_saldo')
+ 6 SYSTEMPATH\View\View.php(228): include('E:\\Project\\a\\sims-ppob\\app\\Views\\homepage\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('homepage/index', [], true)
+ 9 APPPATH\Controllers\HomePage.php(11): view('homepage/index')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomePage->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\Project\\a\\sims-ppob\\public\\index.php')
